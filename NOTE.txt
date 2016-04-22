@@ -1,0 +1,8 @@
+1.环境搭建：
+npm install --save-dev babel-preset-es2015 babel-preset-react babel-preset-stage-0
+echo '{"presets":["es2015","react",'stage-0']}'>.babelrc
+mian.js: 
+	import ReactDOM from 'react-dom';
+	React.render ----> ReactDOM.render
+
+2.npm install -g webpack-dev-server
